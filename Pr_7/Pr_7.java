@@ -2,9 +2,7 @@ package Pr_7;
 
 /*
 Program Name: Pr_7
-Program Description: This program defines an Employee class with private data members:
-employeeName and employeeSalary. It includes methods to read employee data from the user
-and display the entered data. The main method demonstrates object creation and method calling.
+Description: Employee class using encapsulation.
 */
 
 import java.util.Scanner;
@@ -25,7 +23,6 @@ class Employee {
         employeeSalary = sc.nextDouble();
     }
 
-    // Method to display employee data
     public void displayEmployeeData() {
         System.out.println("\nEmployee Details:");
         System.out.println("Name: " + employeeName);
@@ -35,12 +32,11 @@ class Employee {
 
 public class Pr_7 {
     public static void main(String[] args) {
-        
-        // Create object of Employee
+   
         Employee emp = new Employee();
 
-        // Call methods
         emp.readEmployeeData();
         emp.displayEmployeeData();
+       
     }
 }

@@ -2,13 +2,7 @@ package Pr_8;
 
 /*
 Program Name: Pr_8
-Program Description: This program defines a Point class representing a 2D point (x, y).
-It includes:
-1. Default constructor (initializes x and y to 5)
-2. Parameterized constructor (user-defined values)
-3. Copy constructor (copies values from another object)
-4. display() method to show coordinates
-The main method tests all constructors.
+Description: Point class with constructors.
 */
 
 import java.util.Scanner;
@@ -34,7 +28,6 @@ class Point {
         y = p.y;
     }
 
-    // Display method
     void display() {
         System.out.println("Point coordinates: (" + x + ", " + y + ")");
     }
